@@ -13,4 +13,5 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provision :shell, path: "scripts/prereqs.sh", privileged: false
+  config.vm.provision :shell, path: "scripts/devtools.sh", privileged: false
 end
