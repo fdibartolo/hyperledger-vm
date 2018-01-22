@@ -1,2 +1,5 @@
 # ignore local vm metadata
 .vagrant
+
+# ignore tutorial
+/tutorial
