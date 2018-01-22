@@ -7,6 +7,8 @@ Vagrant.configure(2) do |config|
 
   # Forward Composer Playground port
   config.vm.network "forwarded_port", guest: 8080, host: 8080
+  # Forward Composer REST API port
+  config.vm.network "forwarded_port", guest: 3000, host: 3000
 
   config.vm.provider :virtualbox do |vb|
     vb.memory = "2048"
