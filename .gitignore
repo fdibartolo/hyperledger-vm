@@ -3,3 +3,5 @@
 
 # ignore tutorial
 /tutorial
+
+.DS_Store
